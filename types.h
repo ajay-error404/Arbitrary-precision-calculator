@@ -38,4 +38,5 @@ void pre_zero(Dlist **head, Dlist **tail);
 // to compare two linked list
 int compare(Dlist *head1, Dlist *head2);
 
+
 #endif

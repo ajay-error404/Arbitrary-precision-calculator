@@ -103,6 +103,8 @@ void print_list(Dlist *head)
 
 void pre_zero(Dlist **head, Dlist **tail)
 {
+    (void)tail;
+
     if(*head == NULL)
     {
         return;

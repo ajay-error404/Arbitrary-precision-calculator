@@ -10,6 +10,9 @@ int Substraction(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dli
     *resh = NULL;
     *rest = NULL;
 
+    (void)head1;
+    (void)head2;
+
     int borrow = 0;
     int dif = 0;
     while(temp1 || temp2)
@@ -46,4 +49,6 @@ int Substraction(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dli
             temp1 = temp1->prev;
         }
     }
+    return 0;
+
 }

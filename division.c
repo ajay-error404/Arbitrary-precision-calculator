@@ -4,14 +4,14 @@
 
 int Division(Dlist **head1, Dlist **tail1,Dlist **head2, Dlist **tail2,Dlist **resh,  Dlist **rest)
 {
+    (void)tail1;
+
     Dlist* subresh = NULL;
     Dlist* subrest = NULL;
 
     Dlist *newSumH = NULL, *newSumT = NULL;
     Dlist *newQH = NULL, *newQT = NULL;
 
-
-    Dlist *divresh = NULL, *divrest = NULL;
     Dlist *divsubresh = NULL, *divsubrest = NULL;
 
     dl_insert_first(&subresh, &subrest, 0);
